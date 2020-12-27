@@ -2,6 +2,7 @@ package com.example.testing;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -18,6 +19,8 @@ public class Result extends AppCompatActivity {
     Button btn_score5;
     Button btn_score6;
     ImageView imageView;
+    TextView textView;
+    String name1;
     //宣告
 
     @Override
@@ -31,6 +34,10 @@ public class Result extends AppCompatActivity {
         btn_score4 = findViewById(R.id.btn_score4);
         btn_score5 = findViewById(R.id.btn_score5);
         btn_score6 = findViewById(R.id.btn_score6);
+        textView = findViewById(R.id.name);
+        Intent intent2 = getIntent();
+        name1 = intent2.getStringExtra("NAME");
+        textView.setText("姓名: " + name1);
         //來源
 
         btn_homepage = findViewById(R.id.btn_homePage);
