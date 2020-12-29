@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, Question1.class);
         startActivity(intent);
+
     }
 }
