@@ -107,14 +107,11 @@
         android:id="@+id/btn_nextTo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
         android:text="下一題"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/progressBar2"
         app:layout_constraintTop_toBottomOf="@+id/ed_score2" />
 
     <TextView
@@ -129,15 +126,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="64dp"
-        app:layout_constraintStart_toEndOf="@+id/btn_backTo1"
-        app:layout_constraintTop_toBottomOf="@+id/ed_score2" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="163dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/percent20" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
