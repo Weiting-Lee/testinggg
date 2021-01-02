@@ -19,6 +19,10 @@ public class Result extends AppCompatActivity {
     Button btn_score5;
     Button btn_score6;
     ImageView imageView;
+    TextView tv_score;
+    String score;
+    String name;
+    TextView tv_name;
     //宣告
 
     @Override
@@ -33,7 +37,13 @@ public class Result extends AppCompatActivity {
         btn_score5 = findViewById(R.id.btn_score5);
         btn_score6 = findViewById(R.id.btn_score6);
         //來源
-
+        tv_score=findViewById(R.id.tv_score);
+        tv_name=findViewById(R.id.tv_name);
+        Intent intent=getIntent();
+        score = intent.getStringExtra("SCORE");
+        name = intent.getStringExtra("NAME");
+        tv_score.setText("分數:"+score);
+        tv_name.setText(" "+name);
         btn_homepage = findViewById(R.id.btn_homePage);
         btn_homepage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +62,8 @@ public class Result extends AppCompatActivity {
         btn_score4.setVisibility(Button.GONE);
         btn_score5.setVisibility(Button.GONE);
         btn_score6.setVisibility(Button.GONE);
+        tv_name.setVisibility(TextView.INVISIBLE);
+
     }
     //按鈕隱形
 

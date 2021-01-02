@@ -86,6 +86,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
+        android:onClick="next"
         android:text="下一題"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ed_score3" />
