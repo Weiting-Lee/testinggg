@@ -116,6 +116,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="106dp"
+        android:layout_height="101dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/q10" />
+
     <Button
         android:id="@+id/btn_backTo9"
         android:layout_width="wrap_content"

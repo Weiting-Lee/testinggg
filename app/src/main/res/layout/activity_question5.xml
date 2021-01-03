@@ -115,6 +115,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="126dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:srcCompat="@drawable/q5" />
+
+    <ImageView
         android:id="@+id/imageView8"
         android:layout_width="163dp"
         android:layout_height="45dp"
