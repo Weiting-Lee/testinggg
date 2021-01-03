@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
         android:layout_marginLeft="116dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="79dp"
         android:onClick="btn1"
         android:text="低於21分"
         android:textSize="36sp"
